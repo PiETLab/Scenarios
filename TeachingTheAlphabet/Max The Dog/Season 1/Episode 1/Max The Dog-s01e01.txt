@@ -1,0 +1,112 @@
+Cell 1
+Button 4
+
+/~disp-cell-clear:0
+/~pause:1
+/~sound:MaxTheDog-s01e01-Intro.fixed.wav
+/~pause:1
+/~sound:MaxTheDog-s01e01-LetterB.fixed.wav
+/~pause:1
+/~sound:MaxTheDog-s01e01-AskName.fixed.wav
+/~pause:2
+/~sound:MaxTheDog-s01e01-FirstQuestion.fixed.wav
+/~skip-button:0 ONEE
+/~pause:1
+/~skip-button:1 TWOO
+/~pause:1
+/~user-input
+
+/~ONEE
+/~sound:MaxTheDog-s01e01-correct.wav
+/~sound:MaxTheDog-s01e01-GoodJob-01.fixed.wav
+/~sound:MaxTheDog-s01e01-FinalA.fixed.wav
+/~disp-cell-pins:0 10000000
+/~pause:2
+/~skip:NEXTT
+
+/~TWOO
+/~sound:MaxTheDog-s01e01-Wrong-01.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingA.fixed.wav
+/~disp-cell-pins:0 10000000
+/~pause:2
+/~skip:NEXTT
+
+/~sound:MaxTheDog-s01e01-ShowingA.fixed.wav
+/~pause:1
+
+/~NEXTT
+/~disp-cell-clear:0
+/~pause:1
+/~sound:MaxTheDog-s01e01-QuestionB.fixed.wav
+/~skip-button:0 ONEE
+/~skip-button:1 TWOO
+/~pause:1
+/~user-input
+
+/~ONEE
+/~sound:MaxTheDog-s01e01-correct.wav
+/~sound:MaxTheDog-s01e01-GoodJob-02.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingB-01.fixed.wav
+/~disp-cell-pins:0 11000000
+/~pause:2
+/~skip:NEXTT
+
+
+/~TWOO
+/~sound:MaxTheDog-s01e01-Wrong-02.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingB-02.fixed.wav
+/~disp-cell-pins:0 11000000
+/~pause:2
+/~skip:NEXTT
+
+/~NEXTT
+/~disp-cell-clear:0
+/~sound:MaxTheDog-s01e01-Question-02.fixed.wav
+/~skip-button:0 ONEE
+/~skip-button:1 TWOO
+/~pause:1
+/~user-input
+
+/~ONEE
+/~sound:MaxTheDog-s01e01-correct.wav
+/~sound:MaxTheDog-s01e01-GoodJob-03.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingA.fixed.wav
+/~disp-cell-pins:0 10000000
+/~pause:2
+/~skip:NEXTT
+
+/~TWOO
+/~sound:MaxTheDog-s01e01-Wrong-03.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingA.fixed.wav
+/~disp-cell-pins:0 10000000
+/~pause:2
+/~skip:NEXTT
+
+/~NEXTT
+/~disp-cell-clear:0
+/~pause:1
+/~sound:MaxTheDog-s01e01-Question-03.fixed.wav
+/~skip-button:0 ONEE
+/~skip-button:1 TWOO
+/~pause:1
+/~user-input
+
+/~TWOO
+/~sound:MaxTheDog-s01e01-correct.wav
+/~sound:MaxTheDog-s01e01-goodJob-02.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingB-01.fixed.wav
+/~disp-cell-pins:0 11000000
+/~pause:2
+/~skip:NEXTT
+
+/~ONEE
+/~sound:MaxTheDog-s01e01-Wrong-04.fixed.wav
+/~sound:MaxTheDog-s01e01-ShowingB-01.fixed.wav
+/~disp-cell-pins:0 11000000
+/~pause:2
+/~skip:NEXTT
+
+/~NEXTT
+/~disp-cell-clear:0
+/~pause:1
+/~sound:MaxTheDog-s01e01-End.fixed.wav
