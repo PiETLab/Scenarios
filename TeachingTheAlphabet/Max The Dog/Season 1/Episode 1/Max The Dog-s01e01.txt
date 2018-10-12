@@ -1,5 +1,5 @@
 Cell 1
-Button 4
+Button 2
 
 /~disp-cell-clear:0
 /~pause:1
